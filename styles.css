@@ -25,7 +25,7 @@ header {
       left: 0;
       margin: 0 20px;
       font-size: 17px;
-      color: #660000;
+      color: #ff3300;
       img {
         width: 45px;
         padding: 5px;
@@ -224,7 +224,7 @@ body {
     width: 50%;
     padding: 10px;
     margin:10px auto;
-    background-color: #df9f9f;
+    background-color: #c2d6d6;
     border-radius: 15px;
   }
 
@@ -234,7 +234,7 @@ body {
     width: 75%;
     padding: 10px;
     margin:10px auto;
-    background-color: #df9f9f;
+    background-color: #c2d6d6;
     border-radius: 15px;
   }
   
@@ -247,4 +247,34 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+  }
+
+  .card-schedule {
+    box-shadow: 0 6px 12px 0 rgba(65, 62, 62, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    padding: 10px;
+    margin:10px auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #e0e0eb;
+  }
+
+  .inner-card-schedule {
+    width:90%;
+    margin:5px auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .schedule-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 380px; 
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
   }
